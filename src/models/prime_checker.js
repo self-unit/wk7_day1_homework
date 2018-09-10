@@ -18,7 +18,7 @@ PrimeChecker.prototype.checkNumberIsPrime = function (number) {
      return false;
    }
  }
- return number > 1;
+  return number > 1;
 };
 
 module.exports = PrimeChecker;
